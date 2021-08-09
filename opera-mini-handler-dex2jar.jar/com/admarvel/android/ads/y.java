@@ -1,0 +1,26 @@
+// 
+// Decompiled by Procyon v0.6-prerelease
+// 
+
+package com.admarvel.android.ads;
+
+import android.annotation.SuppressLint;
+import java.util.concurrent.atomic.AtomicBoolean;
+import android.content.Context;
+import android.webkit.WebView;
+
+class y
+{
+    @SuppressLint({ "SetJavaScriptEnabled" })
+    static void a(final WebView webView, final Context context, final AtomicBoolean atomicBoolean) {
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+        webView.getSettings().setAllowFileAccess(true);
+        webView.getSettings().setPluginsEnabled(false);
+        webView.setInitialScale(100);
+        if (atomicBoolean.get()) {
+            webView.getSettings().setBuiltInZoomControls(true);
+            webView.getSettings().setSupportZoom(true);
+        }
+    }
+}

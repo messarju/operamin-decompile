@@ -1,0 +1,17 @@
+// 
+// Decompiled by Procyon v0.6-prerelease
+// 
+
+package com.opera.mini.android.notifications;
+
+import com.opera.mini.android.events.EventDispatcher;
+import android.content.Intent;
+import android.content.Context;
+import android.content.BroadcastReceiver;
+
+public class NotificationAlarmReceiver extends BroadcastReceiver
+{
+    public void onReceive(final Context context, final Intent intent) {
+        EventDispatcher.Code(new e());
+    }
+}

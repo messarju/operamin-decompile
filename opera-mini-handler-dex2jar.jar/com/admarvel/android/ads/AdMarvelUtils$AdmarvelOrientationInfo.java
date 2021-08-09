@@ -1,0 +1,17 @@
+// 
+// Decompiled by Procyon v0.6-prerelease
+// 
+
+package com.admarvel.android.ads;
+
+public enum AdMarvelUtils$AdmarvelOrientationInfo
+{
+    SCREEN_ORIENTATION_CURRENT_ACTIVITY("SCREEN_ORIENTATION_CURRENT_ACTIVITY", 0), 
+    SCREEN_ORIENTATION_LANDSCAPE("SCREEN_ORIENTATION_LANDSCAPE", 2), 
+    SCREEN_ORIENTATION_PORTRAIT("SCREEN_ORIENTATION_PORTRAIT", 1), 
+    SCREEN_ORIENTATION_REVERSE_LANDSCAPE("SCREEN_ORIENTATION_REVERSE_LANDSCAPE", 3), 
+    SCREEN_ORIENTATION_REVERSE_PORTRAIT("SCREEN_ORIENTATION_REVERSE_PORTRAIT", 4);
+    
+    private AdMarvelUtils$AdmarvelOrientationInfo(final String s, final int n) {
+    }
+}
