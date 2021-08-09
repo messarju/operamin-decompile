@@ -1,1 +1,0 @@
-# operamin-decompile
